@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+.content{
+    width: 80%;
+    padding-left: 90px;
+    padding-top: 20px;
+    font-family:sans-serif;
+}
+
+
+hr{
+    height: 2px;
+background-color: rgb(172, 172, 181);
+
+}
+.space{
+    
+    display: grid;
+    grid-template-columns: 0.1fr 3fr 0.2fr;
+   
+}
+
+.p1{
+    color: blue;
+    font-weight: bold;
+}
+.p2{
+    font-weight: bold;
+}
+.menu{
+    width: 300px;
+    height: 344px;
+    border-radius: 6px;
+    background-color: white;
+    box-shadow: 2px 2px 10px 6px rgb(237, 232, 232);
+    position: relative;
+    
+}
+#img{
+    width: 300px;
+    height: 190px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.menu>footer{
+    background-color: rgb(221, 245, 252);
+    width: 300px;
+    height: 40px;
+    position: fixed;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    display: grid;
+    grid-template-columns: 0.7fr 0.7fr;
+text-align: center;
+}
+.htext{
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+}
+#text1{
+    text-align: center;
+    color: gray;
+}
+.Boddy{
+    display: grid;
+    grid-template-columns: 0.7fr 0.7fr 0.4fr;
+    justify-content: center;
+}
+.cooking{
+    background-color: rgb(89, 60, 234);
+    width: 90px;
+    height: 16px;
+    color: white;
+    position: relative;
+    padding: 10px 10px;
+    bottom: 185px;
+    left: 180px;
+    text-align: center;
+    opacity: 0.9;
+    }
+
+    </style>
+</head>
+<body>
+    
+    <div class="content">
+    <div class="space">
+       <p class="p1"><i class="fa-solid fa-book" style="color: #000000;"></i></p>
+       <p class="p1">COOKING BLOG</p>
+       <p class="p2">See All </p> 
+    </div>
+    <hr><br>
+    <div class="Boddy">
+    <div class="menu">
+         <img src="recipes.jpg" id="img">
+            <div class="cooking">cooking</div>
+         <div class="htext">Simple Breakfast</div>
+         <p id="text1">This is how to make the simple yet nutritious breakfast in a few minutes.</p>
+         <footer>
+            <p><i class="fa-solid fa-clock" style="color: #000000;"></i>&nbsp;6 minutes ago</p>
+            <p><i class="fa-regular fa-comment" style="color: #000000;">&nbsp;</i>39 comments</p>
+         </footer>
+    </div>
+    <div class="menu">
+        <img src="recipes.jpg" id="img">
+        <div class="cooking">cooking</div>
+        <div class="htext">Simple Breakfast</div>
+        <p id="text1">This is how to make the simple yet nutritious breakfast in a few minutes.</p>
+        <footer>
+           <p><i class="fa-solid fa-clock" style="color: #000000;"></i>&nbsp;6 minutes ago</p>
+           <p><i class="fa-regular fa-comment" style="color: #000000;">&nbsp;</i>39 comments</p>
+        </footer>
+   </div>
+   <div class="menu">
+    <img src="recipes.jpg" id="img">
+    <div class="cooking">cooking</div>
+    <div class="htext">Simple Breakfast</div>
+    <p id="text1">This is how to make the simple yet nutritious breakfast in a few minutes.</p>
+    <footer>
+       <p><i class="fa-solid fa-clock" style="color: #000000;"></i>&nbsp;6 minutes ago</p>
+       <p><i class="fa-regular fa-comment" style="color: #000000;">&nbsp;</i>39 comments</p>
+    </footer>
+</div>
+</div>  
+</div> 
+
+       
+    
+   
+    
+</body>
+</html>
